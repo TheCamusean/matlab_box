@@ -1,6 +1,6 @@
 % Optimal Control (Deterministic Continuous Time Control)
 
-
+%%                   Define the Problem of Optimal Control
 % Mass - Spring system dx/dt = Ax+Bu  y = Cx + Du x1:z x2:dz/dt
 
 A = [0,1;-1,0];
@@ -17,7 +17,11 @@ R = 0;
 % We set the Cost function J as :
 % J(t,x) = min_{u(t_i -> tf)}(C(x,t,u(t_i -> t_f)))
 
-
+%%                  Hamilton - Jacobi -Bellman equation
+%  For an optimal control, the HJB equation is going to give us the optimal
+%  control for a dynamical system subjected to a cost function
+%  HJBE = d(V(x,t))dt + min_{u}(grad(V) * F + C) = 0  where, V is the value
+%  function J , F the dynamical system and C the cost function on the path
 
 
 
