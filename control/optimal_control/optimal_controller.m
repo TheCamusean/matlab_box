@@ -17,7 +17,7 @@ R = 0;
 % We set the Cost function J as :
 % J(t,x) = min_{u(t_i -> tf)}(C(x,t,u(t_i -> t_f)))
 
-
+J
 
 
 
