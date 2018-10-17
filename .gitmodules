@@ -1,0 +1,3 @@
+[submodule "mips/mips"]
+	path = mips/mips
+	url = https://github.com/sparisi/mips.git
